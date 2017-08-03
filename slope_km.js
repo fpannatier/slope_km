@@ -25,6 +25,10 @@ function draw() {
   fill(255);
   rect(0,0,width,10);
   rect(0,height-10,width,10);
+  textSize(25);
+  textAlign('left');
+  fill(147,163,187);
+  text('Pistenkilometer: '+ slopeKm.value(),270,1000);
 
 
     console.log(km);
