@@ -22,6 +22,7 @@ function setup() {
   slopeKm = createSlider(0,700,700);
   slopeKm.position(320,1350);
   background(255);
+  textFont('DINOT');
 
   //snow setup
   frameRate(25);
